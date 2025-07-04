@@ -11,9 +11,7 @@ This project uses the **XGBoost Regressor** to predict housing prices based on f
 - [Features](#-features)
 - [Dataset](#-dataset)
 - [Requirements](#-requirements)
-- [How to Run](#-how-to-run)
-- [Project Structure](#-project-structure)
-- [Sample Output](#-sample-output)
+
 
 ---
 
@@ -49,6 +47,11 @@ Predicting housing prices is a classic regression problem that is useful for rea
 
 You must download or place `HousingData.csv` in the project directory before running the code.
 
+## Sample Output
+**Best Hyperparameters:**{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 1}
+**Cross-Validation R² Score:**0.85 ± 0.03
+**Test Set Evaluation:**Mean Squared Error: 4.87
+ R² Score: 0.93
 ---
 
 ## 📦 Requirements
@@ -58,9 +61,4 @@ Install the required packages with pip:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 
-## Sample Output
-**Best Hyperparameters:**{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 1}
-**Cross-Validation R² Score:**0.85 ± 0.03
-**Test Set Evaluation:**Mean Squared Error: 4.87
-                        R² Score: 0.93
 
