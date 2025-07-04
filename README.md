@@ -48,11 +48,13 @@ Predicting housing prices is a classic regression problem that is useful for rea
 You must download or place `HousingData.csv` in the project directory before running the code.
 
 ## Sample Output
-**Best Hyperparameters:**{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 1}
-**Cross-Validation R² Score:**0.85 ± 0.03
-**Test Set Evaluation:**Mean Squared Error: 4.87
- R² Score: 0.93
----
+✅ Best Hyperparameters: {'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 200, 'subsample': 0.7}
+
+📈 Cross-Validation R2 Score: 0.668 ± 0.138
+
+📊 Final Evaluation on Test Set:
+Mean Squared Error: 4.85
+R² Score: 0.934
 
 ## 📦 Requirements
 
